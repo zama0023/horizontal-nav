@@ -6,30 +6,35 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #dbd6cf;
+}
+
 h1 {
   font-family: "Bevan", cursive;
   color: #fff;
   background-color: #79756f;
   padding:inherit;
-  padding: 0.6em 0.5em 0.75em;
+  padding: 0.6em 0.5em 4em;
   margin: inherit;
   text-align: center;
-  border: 1px solid #595652;
+  border: 3px solid #595652;
+  line-height: 1.5;
 }
 
 ul {
   text-align: center;
 }
 
-.a{
+.a {
   display: inline-block;
   padding: inherit;
   padding: 0.5em 0.75em;
   margin: inherit;
   background-color: #713837;
   color: #fff;
-  border-radius: 10px;
-  text-decoration: none;
+  border-radius: 5px;
+  line-height: 1.5;
 }
 
 .b {
@@ -38,7 +43,8 @@ ul {
   padding: 0.5em 0.75em;
   margin: inherit;
   background-color: #713837;
-  border-radius: 10px;
+  border-radius: 5px;
+  line-height: 1.5;
 }
 
 .c {
@@ -47,7 +53,8 @@ ul {
   padding: 0.5em 0.75em;
   margin: inherit;
   background-color: #713837;
-  border-radius: 10px;
+  border-radius: 5px;
+  line-height: 1.5;
 }
 
 .d {
@@ -56,10 +63,21 @@ ul {
   padding: 0.5em 0.75em;
   margin: inherit;
   background-color: #713837;
-  border-radius: 10px;
+  border-radius: 5px;
+  line-height: 1.5;
 }
 
-ul a:hover {
+a {
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+a:hover {
   color: #fff;
   text-decoration: inherit;
+}
+
+li:hover {
+  background-color: #f33;
 }
